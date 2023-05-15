@@ -1,5 +1,9 @@
 body{
-    background-color: #ccc
+    background-color: white;
+}
+
+.principal{
+    background-color: #ccc;
 }
 
 #banner{
@@ -21,5 +25,13 @@ p{ text-align: center;
 }
 em strong {
     color: red;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: white;
 }
 
