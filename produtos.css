@@ -28,6 +28,12 @@ nav a {
 	text-decoration: none;
 }
 
+nav a:hover{
+	color: aqua;
+	text-decoration: underline;
+}
+
+
 .produtos{
 	width: 940px;
 	margin: 0 auto;
@@ -50,6 +56,16 @@ border-radius: 10px;
 	font-size: 30px;
 	font-weight: bold;
 }
+
+.produtos li:hover {
+	border-color: aqua;
+}
+
+.produtos li:active{
+	border-color: blueviolet;
+}
+
+
 
 .produtos-preco{
 	font-size: 22px;
