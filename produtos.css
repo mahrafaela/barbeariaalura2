@@ -37,6 +37,7 @@ nav a:hover{
 .produtos{
 	width: 940px;
 	margin: 0 auto;
+	padding: 50px;
 }
 
 .produtos li{
@@ -58,11 +59,16 @@ border-radius: 10px;
 }
 
 .produtos li:hover {
-	border-color: aqua;
+	border-color: blueviolet;
 }
 
+.produtos li:hover h2{
+	font-size: 35px;
+}
+
+
 .produtos li:active{
-	border-color: blueviolet;
+	border-color: aqua;
 }
 
 
@@ -81,3 +87,14 @@ border-radius: 10px;
 }
 
 
+footer{
+	background-color: aqua;
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0;
+}
+
+footer p{
+	color: white;
+	font-size: 12px;
+}
